@@ -61,3 +61,178 @@ nav .btn{
     padding: 12.5px 16px;
 }
 /* nav bar End */
+
+/* banner-section start */
+
+#banner{
+    border: 1px solid;
+    height: 674px;
+    color: white;
+    background-image: url('./assets/hero-bg.png');
+    background-position: center;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 115.5px auto ;
+    text-align: center;
+}
+
+.banner-content h1{
+    text-transform: capitalize;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.banner-content h1 span{
+    text-transform: capitalize;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 32px;
+}
+
+.button-group{
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+.button-group .btn{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16.5px 16px;
+}
+.button-group .btn-2{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16.5px 16px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+/* banner-section end */
+
+/* Note-section Start */
+ #note{
+    text-align: center;
+ }
+ #note h2{
+    font-size: 48px;
+    color: #001931;
+    margin-top: 40px;
+    font-weight: 700;
+ }
+ #note p{
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin-top: 14px;
+ }
+
+ #note .card-box{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    margin: 44px auto;
+    gap: 24px;
+ }
+
+ #note .card-box .card{
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.133);
+}
+ #note .card-box .card h3{
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: capitalize;
+}
+/* Note-section End */
+
+/* solution-Section Start */
+#solution .solution-container{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+    margin: 120px auto;
+    align-items: center;
+}
+#solution .solution-container .solution-image-box img{
+    width: 600px;
+    height: 600px;
+}
+#solution .solution-container .solution-text-box .sol-p{
+    text-transform: uppercase;
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#solution .solution-container .solution-text-box h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+#solution .solution-container .solution-text-box p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#solution .solution-container .solution-text-box .list-p{
+    color: #001931;
+    margin-bottom: 16px;
+}
+/* solution-Section End */
+
+/* Ready Section - Start */
+
+#Ready .ready-container{
+    background-color: #F7F6F2;
+    width: 85%;
+    max-width: 1360px;
+    margin:0px auto 120px;
+    padding: 80px 40px;
+    text-align: center;
+}
+#Ready .ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+#Ready .ready-container p{
+    color: #627382;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#Ready .ready-container .btn{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16.5px 16px;
+    margin-bottom: 16px;
+}
+
+
+/* Ready Section - End */
